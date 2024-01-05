@@ -100,3 +100,4 @@ USER redash
 
 ENTRYPOINT ["/app/bin/docker-entrypoint"]
 CMD ["server"]
+RUN pip install openai
